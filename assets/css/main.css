@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*navbar empieza*/
+.navbar {
+    display: flex;
+    background: rgba(0, 0, 0, 0.705);
+    width: 100vw;
+    height: 65px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid rgb(185, 42, 185) 1px;
+    position: fixed;
+    gap: 5%;
+    font-family: "Orbitron", sans-serif;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.contenedor_menu {
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor_registro {
+    display: flex;
+    gap: 10px;
+}
+
+.enlace {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/*navbar Termina*/
+
+
+
+/*slider Empieza*/
+
+
+
+
+img {
+
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+    object-position: 50% 60%;
+
+}
+
+
+.atras {
+    font-size: 80px;
+    cursor: pointer;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    color: white;
+    font-family: "Bitcount Grid Single", sans-serif;
+    /*text-shadow:
+        0 0 5px #A020F0,
+        0 0 10px #A020F0,
+        0 0 20px #D8BFD8;*/
+
+}
+
+
+.adelante {
+    font-size: 80px;
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    color: white;
+    color: white;
+    font-family: "Bitcount Grid Single", sans-serif;
+    /*text-shadow:
+        0 0 5px #A020F0,
+        0 0 10px #A020F0,
+        0 0 20px #D8BFD8;*/
+}
+
+
+
+.nombre {
+    font-size: 50px;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+}
+
+
+.explorar {
+    font-size: 30px;
+    position: absolute;
+    right: 16.5%;
+    top: 65%;
+    color: white;
+    border: solid white;
+    font-family: "Orbitron", sans-serif;
+    text-decoration: none;
+}
+
+.explorar:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+/*slider Termina*/
