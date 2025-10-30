@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="contenedor_logo">
+        <img src="./assets/img/Logo.png" alt="Logo" class="logo">
+      </div>
+      <div class="contenedor_menu">
+        <a href="index.html" class="enlace">INICIO</a>
+        <a href="articulo.html" class="enlace">MODOS</a>
+        <a href="#" class="enlace">NOTICIAS</a>
+        <a href="contacto.html" class="enlace">CONTACTO</a>
+        <a href="#" class="enlace">ACERCA DE CYBERFIGHT</a>
+      </div>
+      <div class="contenedor_registro">
+        <a href="#" class="enlace">Iniciar sesión</a>
+        <a href="#" class="enlace">Registrarme</a>
+      </div>
+    </nav>
+  </header>
+
+  <main style="margin-top: 80px;">
+    <section class="contenedor_contacto">
+      <h1 class="titulo_contacto">Formulario de Contacto</h1>
+
+      <form id="formulario" class="formulario">
+        <input type="text" id="nombre" placeholder="Nombre completo" maxlength="30" required>
+        <input type="email" id="email" placeholder="Correo electrónico" required>
+        <input type="tel" id="telefono" placeholder="Teléfono (10 dígitos)" required>
+        <button type="submit" class="boton_enviar">Enviar</button>
+      </form>
+
+      <div id="resultado" class="resultado"></div>
+    </section>
+  </main>
+
+  <script src="./assets/js/contacto.js"></script>
+</body>
+</html>
