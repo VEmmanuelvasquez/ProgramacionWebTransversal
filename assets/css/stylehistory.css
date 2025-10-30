@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navbar empieza*/
+.navbar {
+    display: flex;
+    background: rgba(0, 0, 0, 0.705);
+    width: 100vw;
+    height: 65px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid rgb(185, 42, 185) 1px;
+    gap: 5%;
+    font-family: "Orbitron", sans-serif;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.contenedor_menu {
+    display: flex;
+    gap: 15px;
+}
+
+.contenedor_registro {
+    display: flex;
+    gap: 10px;
+}
+
+.enlace {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/*navbar Termina*/
+
+
+body {
+    background-color: #ffffff;
+}
+
+.contenedor1 {
+    display: flex;
+    border: solid rgb(0, 0, 0) 10px;
+    justify-content: center;
+    width: max-content;
+    height: max-content;  
+    padding: 10px; 
+
+
+}
+
+.contenedor2{
+    display: flex;
+    gap: 100px; 
+}
+
+.estadisticas{
+    display: flex;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+ 
+
+}
+
+.historia{
+    display: flex;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+ 
+
+}
