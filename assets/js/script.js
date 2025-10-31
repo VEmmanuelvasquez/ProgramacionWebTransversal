@@ -1,5 +1,5 @@
-const nombres = ["Unit-734", "Unit-Delta", "Unit-Core"];
-const enlaces = ["#unit734", "#unitdelta", "#unitcore"];
+const nombres = ["Unit-734", "Unit-Delta", "Unit-Core","Unit-67"];
+const enlaces = ["#unit734", "#unitdelta", "#unitcore","#unit67"];
 
 const imagenes = document.querySelectorAll(".slider-img");
 const nombreRobot = document.getElementById("nombre_robot");
