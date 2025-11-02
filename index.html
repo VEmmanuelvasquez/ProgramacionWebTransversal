@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -31,11 +32,11 @@
 
             <div class="contenedor_menu">
 
-                <a href="" class="enlace">INICIO</a>
-                <a href="" class="enlace">MODOS</a>
-                <a href="" class="enlace">NOTICIAS</a>
-                <a href="" class="enlace">CONTACTO</a>
-                <a href="" class="enlace">ACERCA DE CYBERFIGHT</a>
+                <a href="index.html" class="enlace">INICIO</a>
+                <a href="Modos.html" class="enlace">MODOS</a>
+                <a href="Noticias.html" class="enlace">NOTICIAS</a>
+                <a href="contacto.html" class="enlace">CONTACTO</a>
+                <a href="ACERCA DE CYBERFIGHT.html" class="enlace">ACERCA DE CYBERFIGHT</a>
 
             </div>
 
@@ -50,37 +51,33 @@
 
 
     <main>
-        <Section class="contenedor_slider">
 
 
-            <div>
-
-                <img src="./assets/img/slider/robot1.png" alt="" class="">
-                <img src="./assets/img/slider/robot2.png" alt="" class="">
-                <img src="./assets/img/slider/principal.png" alt="" class="">
-                <img src="" alt="" class="">
-                <img src="" alt="" class="">
-
+        <section class="contenedor_slider">
+            <div class="carousel">
+                <img src="./assets/img/slider/robot1.png" class="slider-img" alt="Robot modelo 1">
+                <img src="./assets/img/slider/robot2.png" class="slider-img" alt="Robot modelo 2">
+                <img src="./assets/img/slider/principal.png" class="slider-img" alt="Robot principal">
             </div>
 
-
-
-            <div>
-                <div class="atras"><</div>
-                <div class="adelante">></div>
+            <div class="controles">
+                <div class="atras">&lt;</div>
+                <div class="adelante">&gt;</div>
             </div>
 
-
-            <div>
-                <span class="nombre">Unit-734</span>
-                <a href="#" class=explorar>Explorar</a>
+            <div class="info_robot">
+                <span id="nombre_robot" class="nombre">Unit-734</span>
+                <a href="history.html" class="explorar">Explorar</a>
             </div>
+        </section>
 
 
 
 
 
-        </Section>
+
+
+
     </main>
 
 
@@ -133,6 +130,7 @@
     <footer>
 
     </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
