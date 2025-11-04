@@ -140,8 +140,8 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 40px;
-    background-color: black;
-    border-top: 2px solid yellow;
+    
+    
 }
 
 .titulo_contacto {
@@ -229,4 +229,12 @@ body {
   color: lime;
   text-shadow: 0 0 5px lime;
   margin-bottom: 10px;
+}
+
+body {
+  background-image: url('../img/contacto/fondocontacto.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
