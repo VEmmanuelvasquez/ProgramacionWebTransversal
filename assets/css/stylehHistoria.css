@@ -13,7 +13,7 @@ html, body {
 
 /* === FONDO FIJO === */
 body {
-  background-image: url('../img/historia/robot1.png'); /* Ajustá la ruta si es distinta */
+  background-image: url('../img/historia/robot1.png'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@ main {
   flex-wrap: wrap;
   max-width: 1300px;
   width: 100%;
-  background-color: rgba(42, 42, 42, 0.9); /* semitransparente para que se vea el fondo */
+  background-color: rgba(42, 42, 42, 0.9);
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   padding: 20px;
@@ -83,7 +83,7 @@ main {
 .estadistica {
   flex: 1 1 500px;
   padding: 20px;
-  border-right: 2px solid #555555;
+  border-right: 2px solid #f30a9661;
   border-radius: 5px 0 0 5px;
 }
 
