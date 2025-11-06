@@ -1,10 +1,3 @@
-Body {
-  background-image: url('../img/acercadecyberfight/universo.png'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 * {
   margin: 0;
   padding: 0;
@@ -16,11 +9,12 @@ html, body {
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 /* === FONDO FIJO === */
 body {
-  background-image: url('../img/acercadecyberfight/universo.png'); 
+  background-image: url('../img/acercadecyberfight/universo.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,8 +38,9 @@ body {
 }
 
 .logo {
-  width: 120px;
-  height: auto;
+ width: 200px;
+    height: 200px;
+    cursor: pointer;
 }
 
 .contenedor_menu,
@@ -64,3 +59,59 @@ body {
 .enlace:hover {
   color: #ffcc00;
 }
+
+/* === SECCIÓN CYBERFIGHT === */
+.cyber-section {
+  margin-top: 65px; 
+  padding: 50px 30px;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(4px);
+  color: #e0e0ff;
+}
+
+
+
+.cyber-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cyber-title {
+  font-size: 2.8em;
+  color: #ff00cc;
+  text-shadow: 0 0 12px #ff00cc;
+  margin-bottom: 20px;
+}
+
+.cyber-subtitle {
+  font-size: 1.5em;
+  color: #00ffff;
+  margin-top: 30px;
+  text-shadow: 0 0 6px #00ffff;
+}
+
+.cyber-subsubtitle {
+  font-size: 1.3em;
+  color: #ffcc00;
+  margin-top: 20px;
+  text-shadow: 0 0 4px #ffcc00;
+}
+
+.cyber-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cyber-section ul li {
+  margin-bottom: 12px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.cyber-section ul li::before {
+  content: "⚡";
+  position: absolute;
+  left: 0;
+  color: #00ffff;
+}
+
