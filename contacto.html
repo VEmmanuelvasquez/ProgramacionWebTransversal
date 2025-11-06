@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head> 
+  
   <meta charset="UTF-8">
-  <title>Contacto</title>
-  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="./assets/css/stylecontacto.css">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+  
 </head>
-<body>
 
+<body>
   <header>
     <nav class="navbar">
       <div class="contenedor_logo">
@@ -16,10 +18,10 @@
       </div>
       <div class="contenedor_menu">
         <a href="index.html" class="enlace">INICIO</a>
-        <a href="articulo.html" class="enlace">MODOS</a>
+        <a href="Historia.html" class="enlace">Historia</a>
         <a href="#" class="enlace">NOTICIAS</a>
         <a href="contacto.html" class="enlace">CONTACTO</a>
-        <a href="#" class="enlace">ACERCA DE CYBERFIGHT</a>
+        <a href="ACERCA DE CYBERFIGHT.html" class="enlace">ACERCA DE CYBERFIGHT</a>
       </div>
       <div class="contenedor_registro">
         <a href="#" class="enlace">Iniciar sesión</a>
@@ -32,19 +34,31 @@
     <section class="contenedor_contacto">
       <h1 class="titulo_contacto">Formulario de Contacto</h1>
 
-      <form id="formulario" class="formulario">
-        <input type="text" id="nombre" placeholder="Nombre completo" maxlength="30" required>
-        <input type="email" id="email" placeholder="Correo electrónico" required>
-        <input type="tel" id="telefono" placeholder="Teléfono (10 dígitos)" required>
-        <button type="submit" class="boton_enviar">Enviar</button>
-      </form>
+  
 
-      <div id="resultado" class="resultado"></div>
-    </section>
-  </main>
+    <form id="formulario" class="formulario" novalidate>
 
-  <script src="./assets/js/contacto.js"></script>
+
+    <div class="item">
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div class="item">
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    </div>
+    <div class="item">
+    <label for="telefono">Teléfono (10 dígitos):</label>
+    <input type="tel" id="telefono" name="telefono" required>
+    </div>
+    <div class="center">
+    <button type="submit"class="boton_enviar">Enviar</button>
+    </div>
+  </form>
+
+  <div id="resultado"></div>
+
+  <script src ="assets/js/contacto.js"></script>
 </body>
 </html>
-
 

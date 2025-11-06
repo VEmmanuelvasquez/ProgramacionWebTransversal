@@ -1,0 +1,66 @@
+Body {
+  background-image: url('../img/acercadecyberfight/universo.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* === FONDO FIJO === */
+body {
+  background-image: url('../img/acercadecyberfight/universo.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* === NAVBAR === */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.705);
+  height: 65px;
+  padding: 0 40px;
+  border-bottom: 1px solid rgb(185, 42, 185);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.contenedor_menu,
+.contenedor_registro {
+  display: flex;
+  gap: 15px;
+}
+
+.enlace {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.enlace:hover {
+  color: #ffcc00;
+}
