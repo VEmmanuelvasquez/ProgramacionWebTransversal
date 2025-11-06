@@ -109,9 +109,12 @@ body {
 }
 
 .cyber-section ul li::before {
-  content: "⚡";
+  content: "•"; /* reemplaza el rayo por un punto */
   position: absolute;
   left: 0;
-  color: #00ffff;
+  color: #00ffff; /* mantiene el color cian estilo cyberpunk */
 }
+
+
+
 
