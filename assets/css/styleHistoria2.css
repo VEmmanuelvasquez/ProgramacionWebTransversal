@@ -5,7 +5,8 @@
   font-family: "Orbitron", sans-serif;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
@@ -13,7 +14,7 @@ html, body {
 
 /* === FONDO FIJO === */
 body {
-  background-image: url('../img/historia/robot1.png'); 
+  background-image: url('../img/historia/robot2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,9 +38,9 @@ body {
 }
 
 .logo {
- width: 200px;
-    height: 200px;
-    cursor: pointer;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
 }
 
 .contenedor_menu,
@@ -61,7 +62,8 @@ body {
 
 /* === CONTENIDO PRINCIPAL === */
 main {
-  padding-top: 80px; /* espacio para la navbar fija */
+  padding-top: 80px;
+  /* espacio para la navbar fija */
   display: flex;
   justify-content: center;
   width: 100%;
@@ -78,6 +80,7 @@ main {
   padding: 20px;
   position: relative;
   z-index: 1;
+  margin-bottom: 10px;
 }
 
 /* === PERFIL DE COMBATE === */
@@ -89,14 +92,14 @@ main {
 }
 
 h1 {
-  color: #ffcc00;
+  color: #4CAF50;
   text-align: center;
   font-size: 36px;
   margin-bottom: 20px;
 }
 
 h2 {
-  color: #ffcc00;
+  color: #4CAF50;
   font-size: 24px;
   margin: 20px 0 10px;
   border-bottom: 2px solid #555555;
@@ -129,7 +132,7 @@ h2 {
 
 .texto1 {
   width: 150px;
-  color: #ffcc00;
+  color: #44d148;
   font-size: 14px;
 }
 
@@ -148,16 +151,33 @@ h2 {
 
 .barrafondo div {
   height: 100%;
-  background-color: #ffcc00;
+  background-color: #4CAF50;
   transition: width 0.5s ease-in-out;
 }
 
-.barracolor { width: 85%; }
-.barracolor1 { width: 70%; }
-.barracolor2 { width: 55%; }
-.barracolor3 { width: 90%; }
-.barracolor4 { width: 90%; }
-.barracolor5 { width: 90%; }
+.barracolor {
+  width: 90%;
+}
+
+.barracolor1 {
+  width: 60%;
+}
+
+.barracolor2 {
+  width: 90%;
+}
+
+.barracolor3 {
+  width: 75%;
+}
+
+.barracolor4 {
+  width: 50%;
+}
+
+.barracolor5 {
+  width: 99%;
+}
 
 /* === HISTORIA === */
 .historia {
