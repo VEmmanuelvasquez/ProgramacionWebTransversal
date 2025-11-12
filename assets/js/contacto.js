@@ -40,7 +40,7 @@ document.getElementById("formulario").addEventListener("submit", function (e) {
   if (valido) {
     const mensaje = document.createElement("div");
     mensaje.id = "mensaje";
-    mensaje.textContent = `¡Gracias ${nombre}! Tu contacto fue enviado correctamente.`;
+    mensaje.textContent = `¡Gracias ${nombre}! Tu contacto fue enviado correctamente.\Email: ${email}\Teléfono: ${telefono}`;
     const form = document.querySelector("form");
       mensaje.style.marginTop = "3rem";
       mensaje.style.textAlign = "center";
