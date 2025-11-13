@@ -46,6 +46,50 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.enlace:hover {
+    color: #c2c2c2;
+}
+
+.menuDesplegable {
+    position: relative;
+    display: inline-block;
+}
+
+.item {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.item:hover {
+    color: #c2c2c2;
+}
+
+.subitem {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+    z-index: 1;
+    padding: 3px;
+    margin-top: 1px;
+    min-width: max-content;
+
+}
+
+.subitem a:hover {
+    color: #c2c2c2;
+}
+
+.subitem a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 2px;
+    border-bottom: solid rgb(185, 42, 185) 1px;
+}
+
+.menuDesplegable:hover .subitem {
+    display: block;
+}
 
 /*contacto*/
 body {
@@ -59,8 +103,8 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 40px;
-    
-    
+
+
 }
 
 .titulo_contacto {
@@ -125,37 +169,37 @@ body {
 }
 
 .error-list {
-  color: red;
-  font-family: "Orbitron", sans-serif;
-  font-size: 14px;
-  margin-top: 20px;
-  padding-left: 20px;
-  list-style-type: square;
-  text-shadow: 0 0 5px red;
+    color: red;
+    font-family: "Orbitron", sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style-type: square;
+    text-shadow: 0 0 5px red;
 }
 
 .datos-enviados {
-  margin-top: 30px;
-  padding: 20px;
-  border: 2px solid lime;
-  background-color: rgba(0, 255, 0, 0.1);
-  font-family: "Bitcount Grid Single", sans-serif;
-  color: white;
-  box-shadow: 0 0 10px lime;
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid lime;
+    background-color: rgba(0, 255, 0, 0.1);
+    font-family: "Bitcount Grid Single", sans-serif;
+    color: white;
+    box-shadow: 0 0 10px lime;
 }
 
 .datos-enviados h3 {
-  color: lime;
-  text-shadow: 0 0 5px lime;
-  margin-bottom: 10px;
+    color: lime;
+    text-shadow: 0 0 5px lime;
+    margin-bottom: 10px;
 }
 
 body {
-  background-image: url('../img/contacto/fondocontacto.png'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-image: url('../img/contacto/fondocontacto.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 

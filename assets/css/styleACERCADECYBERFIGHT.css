@@ -57,7 +57,48 @@ body {
 }
 
 .enlace:hover {
-  color: #ffcc00;
+    color: #c2c2c2;
+}
+
+.menuDesplegable {
+    position: relative;
+    display: inline-block;
+}
+
+.item {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.item:hover {
+    color: #c2c2c2;
+}
+
+.subitem {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+    z-index: 1;
+    padding: 3px;
+    margin-top: 1px;
+    min-width: max-content;
+
+}
+
+.subitem a:hover {
+    color: #c2c2c2;
+}
+
+.subitem a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 2px;
+    border-bottom: solid rgb(185, 42, 185) 1px;
+}
+
+.menuDesplegable:hover .subitem {
+    display: block;
 }
 
 /* === SECCIÓN CYBERFIGHT === */
